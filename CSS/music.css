@@ -1,0 +1,45 @@
+.music {
+  padding: 13px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  
+  box-shadow: 0 10px 20px rgba(211, 211, 211, 0.4);
+}
+.music__cover {
+  width: 45px;
+  border-radius: 10px;
+}
+.music__info {
+  width: 200px;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.music__info__musician {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 4px;
+}
+.music__info__title {
+  font-size: 16px;
+  color: #333;
+}
+.music a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.music__playing {
+  position: relative;
+}
+.music__playing img {
+  display: block;
+}
+.music__playing a {
+  position: absolute;
+  color: #fff;
+  bottom: 11px;
+  left: 12px;
+}
