@@ -1,11 +1,16 @@
-.music {
-  padding: 13px 25px;
+.music, .music__playing {
+  margin: 0 8px;
+  padding: 13px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
   
-  box-shadow: 0 10px 20px rgba(211, 211, 211, 0.4);
+}
+.music__playing{
+  border-radius: 10px;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
+  
 }
 .music__cover {
   width: 45px;
@@ -31,15 +36,24 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
-.music__playing {
+.music__playing-icon {
   position: relative;
 }
-.music__playing img {
+.music__playing-icon img {
   display: block;
 }
-.music__playing a {
+.music__playing-icon a {
   position: absolute;
   color: #fff;
   bottom: 11px;
   left: 12px;
+}
+.music-list {
+  height: 370px;
+
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.music-list::-webkit-scrollbar {
+  display: none;
 }

@@ -1,0 +1,25 @@
+.screen2-buttons {
+    margin-top: 70px;
+  
+}
+.screen2-buttons ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.screen2-buttons-re,
+.screen2-buttons-shuffle {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+}
+.screen2-buttons-backward,
+.screen2-buttons-forward,
+.screen2-buttons-play {
+  color: #333;
+  font-size: 25px;
+  
+}
+.screen2-buttons-play{
+    font-size: 67px;
+}
